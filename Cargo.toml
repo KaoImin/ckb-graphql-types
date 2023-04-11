@@ -1,0 +1,17 @@
+[package]
+name = "ckb-graphql-types"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-graphql = "5.0"
+bytes = "1.4"
+ckb-types = "0.108"
+faster-hex = "0.6"
+molecule = "0.7"
+thiserror = "1.0"
+
+[dev-dependencies]
+rand = "0.8"
